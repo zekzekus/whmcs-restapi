@@ -21,7 +21,7 @@ setup(
     description="Rest API server for WHMCS SOAP like HTTP API",
     long_description=README + '\n\n' + NEWS,
     classifiers=[
-
+        # classifiers
     ],
     keywords='rest server api flask whmcs http',
     author='Zekeriya Koc',
