@@ -7,6 +7,11 @@ def hello():
     return "Hello World!"
 
 
+@app.route("/<model>/<action>", methods=["GET"])
+def client(model, action):
+    return "%s - %s" % (model, action)
+
+
 def main():
     app.run()
 
