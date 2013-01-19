@@ -4,14 +4,9 @@ from pywhmcs import invoke
 import logging as log
 
 
-# Global configurations
-WHMCS_URL = "http://manage.mysirket.com/includes/api.php"
-API_USER = "apiuser"
-API_PASS = "1q2w3e4r"
-RESPONSE_TYPE = "json"
-
 app = Flask(__name__)
-app.config.from_object(__name__)
+
+from local_settings import *
 
 
 @app.route("/")
