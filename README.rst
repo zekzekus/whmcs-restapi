@@ -6,4 +6,4 @@ Example local_settings.py::
     WHMCS_URL = "http://yourdomain.com/includes/api.php"
     API_USER = "apiuser"
     API_PASS = "pass"
-    RESPONSE_TYPE = "json"
+    RESPONSE_TYPE = "json" # do not change. just JSON supported.

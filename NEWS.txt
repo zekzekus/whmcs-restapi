@@ -6,5 +6,8 @@ News
 
 *Release date: UNRELEASED*
 
-*
+* client CRUD operations implemented
+* all responses are application/json typed
+* dropped XML response type support.
+* "XML is a giant step to no direction at all" Eric Naggum
 
